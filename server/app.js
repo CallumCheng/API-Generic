@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
     res.json({
         "name": "Lucky Oriental",
         "established": 1975,
-        "status-rating": 10,
+        "status": 'OPEN',
         "hygiene-rating": 10
     })
 })
