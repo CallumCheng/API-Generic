@@ -1,7 +1,10 @@
-const e = require("express");
 const express = require("express");
+const cors = require("cors");
 
 const app = express();
+
+//Tell the app to allow cross-origin requests;
+app.use(cors())
 
 const menu = {
     starters: ["garlic bread", "chocolate fudge cake", "fries"],
